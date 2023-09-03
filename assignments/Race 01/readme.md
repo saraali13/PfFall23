@@ -12,3 +12,16 @@ ________________
 ### Question no: 5
 ![IMG_20230828_135915_916~2](https://github.com/saraali13/PfFall23/assets/142868034/e69cddf2-d3f1-42dc-b96f-565c2c51701f) 
 ![IMG_20230828_135921_909~2](https://github.com/saraali13/PfFall23/assets/142868034/cfbcc1bf-10c9-4ebc-b7e6-2c1c2c88bd33)
+### Question no: 6
+![IMG_20230903_203130_187~2](https://github.com/saraali13/PfFall23/assets/142868034/79f37959-4c2b-48cb-8ade-2736c0dc8d09)
+### Question no: 7
+![IMG_20230903_203220_921~2](https://github.com/saraali13/PfFall23/assets/142868034/8ec320bf-cb19-429f-8954-ff3d04ab9239)
+![IMG_20230903_203225_475~2](https://github.com/saraali13/PfFall23/assets/142868034/c134b4ff-1a8e-4e85-ba1e-37da1e21a9c0)
+![IMG_20230903_203640_873~2](https://github.com/saraali13/PfFall23/assets/142868034/0df06245-1669-4606-9260-496194b23d2b)
+### Question no: 8
+![IMG_20230903_203155_987~2](https://github.com/saraali13/PfFall23/assets/142868034/5890dc56-f8a2-4aea-b790-a0f276932302)
+### Question no: 9
+![IMG_20230903_203211_034~2](https://github.com/saraali13/PfFall23/assets/142868034/162297f7-317f-4690-8cea-02a852922824)
+### Question no: 10
+![IMG_20230903_203140_865~2](https://github.com/saraali13/PfFall23/assets/142868034/ec2b6a23-876c-4f24-a7ea-715e26297c63)
+
