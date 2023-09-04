@@ -17,7 +17,8 @@ ________________
 ### Question no: 7
 ![IMG_20230903_203220_921~2](https://github.com/saraali13/PfFall23/assets/142868034/8ec320bf-cb19-429f-8954-ff3d04ab9239)
 ![IMG_20230903_203225_475~2](https://github.com/saraali13/PfFall23/assets/142868034/c134b4ff-1a8e-4e85-ba1e-37da1e21a9c0)
-![IMG_20230903_203640_873~2](https://github.com/saraali13/PfFall23/assets/142868034/0df06245-1669-4606-9260-496194b23d2b)
+![IMG_20230904_150234_347~2](https://github.com/saraali13/PfFall23/assets/142868034/e2d95e78-1835-41ce-8b78-017969a8c8b6)
+![IMG_20230904_150238_087~2](https://github.com/saraali13/PfFall23/assets/142868034/b06cf1f4-b076-444a-a382-d0e242baa0a5)
 ### Question no: 8
 ![IMG_20230903_203155_987~2](https://github.com/saraali13/PfFall23/assets/142868034/5890dc56-f8a2-4aea-b790-a0f276932302)
 ### Question no: 9
