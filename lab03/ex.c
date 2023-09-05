@@ -47,9 +47,9 @@ int main()
             scanf("%d",&south1);
             printf("Enter south2:");
             scanf("%d",&south2);
-            printf("Enter north:");
             scanf("%d",&north);
             printf("Enter west:");
+            printf("Enter north:");
             scanf("%d",&west);
             printf("total distance");
             int totaldistance = south1+south2+north+west;
@@ -59,3 +59,50 @@ int main()
             printf("fuel consumption is:%d" ,fuelconsumption);
             return 1;
 }// end main
+# EX: 4
+#include <stdio.h>
+int main()
+{
+       int first number = 0;
+       int second number = 0;
+       int operator =0;
+       printf("inputs for performing operation:");
+       printf("first operation:");
+       scanf("%d" ,&first operation);
+       printf("second operation:");
+       scanf("%d" ,&second operation);
+       printf("operator:");
+       scanf("%d" ,&operator);
+       if (operator == +);
+       operation = firstoperation + secondoperation;
+             printf("operation is:%d\n",operation);
+       if (operator == -);
+       operation = firstoperation - secondoperation;
+             printf("operation is:%d\n",operation);
+       if (operator == *);
+       operation = firstoperation * secondoperation;
+             printf("operation is:%d\n",operation);
+       if (operator == /);
+       operation = firstoperation / secondoperation;
+             printf("operation is:%d\n",operation);
+       else
+             printf("error");
+       return 1;
+}//end main
+# EX: 5
+#include <stdio.h>
+int main()
+{
+       int orignal price = 0;
+       int sale = 0;
+       printf("inputs for sale price:");
+       printf("orignal price:");
+       scanf("%d" ,&orignal price);
+       printf("sale:");
+       scanf("%d" ,&sale);
+       int sale price =sale/100;
+       printf("sale price:");
+       int price = sale price * orignal price;
+       printf("price":);
+       return 1;
+}//end main
