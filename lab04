@@ -44,3 +44,49 @@ int main(){
 	    }
 return 0;
 }//end main
+Ques03.c
+//--include files--//
+#include <stdio.h>
+#include <stdlib.H>
+//--Global variable--//
+
+int main(){
+           int n;
+           printf("enter any number n greater than 0");
+           scanf("%d",&n);
+           int i;
+           printf("enter an interger");
+           scanf("%d",&i);
+           int sum= 0;
+           while(i<n);	
+           {
+          	i= i*i;
+                sum = sum + i;
+                printf("The sum of Squares of n integers");
+                printf("the sum is:%d" ,sum);
+	    }
+return 0;
+}//end main
+Ques04.c
+//--include files--//
+#include <stdio.h>
+#include <stdlib.h>
+//--Global variable--//
+
+int main() {
+           int x;
+           printf("enter a number greater than o");
+           scanf("%d",&x);
+           int y;
+           printf("enter a number greater than o");
+           scanf("%d",&y);
+           int z;
+           printf("enter a number greater than o");
+           scanf("%d",&z);
+           int ans;
+           printf("Quadratic solution of x,y and z");
+           ans = (-y +- sqrt((y*y)-(4*x*z)))/2*x ;
+           printf("Quadratic solution is %d", ans);
+return 0;
+}//end main
+Ques05.c
