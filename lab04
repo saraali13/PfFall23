@@ -1,5 +1,7 @@
 Ques01.c
-#include <stdlib.H>
+//--include file--//
+#include <stdio.h>
+#include <stdlib.h>
 //--Global variable--//
 
 int main(){
@@ -24,7 +26,7 @@ return 0;
 Ques02.c
 //--include files--//
 #include <stdio.h>
-#include <stdlib.H>
+#include <stdlib.h>
 //--Global variable--//
 
 int main(){
@@ -47,7 +49,7 @@ return 0;
 Ques03.c
 //--include files--//
 #include <stdio.h>
-#include <stdlib.H>
+#include <stdlib.h>
 //--Global variable--//
 
 int main(){
@@ -90,3 +92,33 @@ int main() {
 return 0;
 }//end main
 Ques05.c
+//--include files--//
+#include <stdio.h>
+#include <stdlib.h>
+//--Global variable--//
+
+int main(){
+           int d1;
+           printf("Date of birth of person 1");
+           scanf("%d",&d1);
+           int d2;
+           printf("Date of birth of person 2");
+           scanf("%d",&d2);
+           int d;
+           printf("Current date");
+           scanf("%d",&d);
+           int d3;
+           d3 = d-d1 ;
+           printf("Age of person 1 is:%d" ,d3);
+           int d4;
+           d4 = d-d2 ;
+           printf("Age of person 2 is:%d" ,d4);
+             if (d3>d4);
+                 printf("Person 1 is older");
+             if (d4>d3);
+                 printf("Person 2 is older");
+             if (d3=d4);
+                 printf("Bith are of same age");   
+return 0;
+}//end main
+Ques06.c
