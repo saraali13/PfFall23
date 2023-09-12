@@ -122,3 +122,28 @@ int main(){
 return 0;
 }//end main
 Ques06.c
+de files--//
+#include <stdio.h>
+#include <stdlib.h>
+//--Global variable--//
+
+int main(){
+           int i=1; // a counter variable for while loop1;
+           int j=i+1; // a counter variable for while loop2;
+           int n;
+           printf("enter any number greater than 0");
+           scanf("%d",&n);
+           while(i<=n)
+           {
+               printf("*");
+               printf("\n");
+                while(j<=n)
+                {
+                  j=j+1;
+                  printf("*");
+                  printf("\n");
+                }// end loop while(j<=n) ;
+             i=i+1;
+           }// end loop while(i<=n) ;
+return 0;
+}//end main
