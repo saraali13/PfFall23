@@ -63,29 +63,30 @@ int main()
 #include <stdio.h>
 int main()
 {
-       int first number = 0;
-       int second number = 0;
+       int firstnumber = 0;
+       int secondnumber = 0;
        int operator =0;
+       int operation;
        printf("inputs for performing operation:");
-       printf("first operation:");
-       scanf("%d" ,&first operation);
-       printf("second operation:");
-       scanf("%d" ,&second operation);
+       printf("first number:");
+       scanf("%d" ,&firstnumber);
+       printf("second number:");
+       scanf("%d" ,&secondnumber);
        printf("operator:");
        scanf("%d" ,&operator);
        if (operator == +);
-       operation = firstoperation + secondoperation;
+       operation = firstnumber + secondnumber;
              printf("operation is:%d\n",operation);
        if (operator == -);
-       operation = firstoperation - secondoperation;
+       operation = firstnumber - secondnumber;
              printf("operation is:%d\n",operation);
        if (operator == *);
-       operation = firstoperation * secondoperation;
+       operation = firstnumber * secondnumber;
              printf("operation is:%d\n",operation);
        if (operator == /);
-       operation = firstoperation / secondoperation;
+       operation = firstnumber / secondnumber;
              printf("operation is:%d\n",operation);
-       else
+        else
              printf("error");
        return 1;
 }//end main
