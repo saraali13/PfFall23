@@ -13,6 +13,8 @@ int main() {
    else if (hour >18 && hour<=24)
       { printf("Good Night");
         }
+    else 
+       printf("error");
 return 1;
 } // end main
     
