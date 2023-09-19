@@ -1,4 +1,4 @@
-# labtask 01:
+
 #include <stdio.h>
 #include <math.h>
 void main() {
