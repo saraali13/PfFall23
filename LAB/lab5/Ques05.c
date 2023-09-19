@@ -10,6 +10,9 @@ int main(){
       else if ((c1>='A')&&(c1<='Z'))
       { printf("character is a capital letter");
       }// end else if
+      else if ((c1>='0')&&(c1<='9'))
+      { printf("character is a digit");
+      }// end else if  
       else 
         { printf("special character");
         }//end if
