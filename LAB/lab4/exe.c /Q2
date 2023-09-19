@@ -17,9 +17,9 @@ int main(){
           	{
            		printf("*");
            		j=j+1 ;
-           	}
+           	}//end while
            	printf("\n");
            	i=i+1 ;
-	     }
+	     }//end while
 return 0;
 }//end main
