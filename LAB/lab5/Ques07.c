@@ -8,7 +8,7 @@ int main () {
     int amount;
     printf("enter orignal price");
     scanf("%d",&op);
-    if ((op >= 1999)||(op>=6000))
+    if ((op<2000)||(op>=6000))
      { sale = 50 ;
        amount =(sale*op)/100 ;
        sa=op-amount ;
