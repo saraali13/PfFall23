@@ -9,12 +9,12 @@ int main() {
 	
     int x, sum=0 ,n;
     printf("enter size of array");
-    scanf("%d",n);
+    scanf("%d",&n);
     int arr[n];
    for (int i=0;i<n;i++)
       {
     	printf("enter the value of %d array\n",i);
-    	scanf("%d",x);
+    	scanf("%d",&x);
     	sum=sum+x;
       }// end for
     printf("sum=%d",sum);            
