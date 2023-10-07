@@ -13,10 +13,9 @@ int main() {
     int arr[n];
    for (int i=0;i<n;i++)
       {
-    	printf("enter the value of %d array\n",i);
-    	scanf("%d",&x);
-    	sum=sum+x;
+    	scanf("%d",&arr[i]);
+    	sum=sum+arr[i];
       }// end for
-    printf("sum=%d",sum);            
+   printf("sum=%d",sum);            
     return 0;
 }//end main
