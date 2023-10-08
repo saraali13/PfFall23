@@ -28,5 +28,5 @@ int main() {
 	
 	printf("the smallest value in the array is: %d\n",min);
 	printf("the largest value in the array is: %d\n",max);
-	return 1;int 
+	return 1; 
 }//end main
