@@ -1,14 +1,13 @@
 /* 
 Name:Syeda Sara Ali
 Date: 3-oct-2023 
-Description: symetric matrix 
+Description: multiplication of matrix
 */
 #include <stdio.h>
 
 int main() {
 	int r1,r2,c1,c2 ,i,j ;
 	int arr[i][j] ;
-//	int transpose[j][i];
 	
 // foe 1st matrix //
 
@@ -43,7 +42,6 @@ int main() {
 	   {
            printf("Enter value for array %d %d:\n", i, j);
              scanf("%d",&arr[i][j]);  
-           // printf("%d",array[i][j]);
 		}// end for j
     }//end for i
     	for (int i=0; i<r2; i++) 
