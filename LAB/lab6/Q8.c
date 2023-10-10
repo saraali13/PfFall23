@@ -14,7 +14,7 @@ int main() {
     for (int i=0;i<n;i++)
         {  
     	printf("enter the value of %d array\n",i);
-    	scanf("%d",arr[i]);
+    	scanf("%d",&arr[i]);
     	printf("the value of %d array is %d\n",i,arr[i]);
         }// end for 
     //n=9;
