@@ -1,7 +1,7 @@
 /* 
 Name:Syeda Sara Ali
 Date: 3-oct-2023 
-Description: rotate the elements of an array 
+Description: sum of elements of an array 
 */
 #include <stdio.h>
 
