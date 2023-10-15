@@ -12,12 +12,11 @@ while (m>1)
 {
     printf("choose number of match sticks(1,2,3,4)");
     scanf("%d",&u);   
-   //itch(u){
-	if (u==1)
-	{
-	    c=4; }
-    //reak;
-	else if (u==2){
+ 
+     if (u==1){
+	  c=4; }
+
+    else if (u==2){
 	    c=3; }
     else if(u==3){
 	    c=2; }
@@ -27,7 +26,6 @@ while (m>1)
 	    printf("error");
 	m= m-u-c;
 	printf("number of sticks= %d\n",m);
-
 }// end while
  printf("You lost");
     return 1;
