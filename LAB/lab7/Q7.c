@@ -7,7 +7,7 @@ Description: multiplication of matrix
 
 int main() {
 	int r1,r2,c1,c2 ,i,j ;
-	int arr[i][j] ;
+	int arr[i][j],brr[i][j],crr[i][j] ;
 	
 // foe 1st matrix //
 
@@ -41,14 +41,14 @@ int main() {
           for(int j=0;j<c2;j++)
 	   {
            printf("Enter value for array %d %d:\n", i, j);
-             scanf("%d",&arr[i][j]);  
+             scanf("%d",&brr[i][j]);  
 		}// end for j
     }//end for i
     	for (int i=0; i<r2; i++) 
 	{
           for(int j=0;j<c2;j++)
 	   { 
-           printf("%d\t",arr[i][j]);
+           printf("%d\t",brr[i][j]);
 	   }// for j
 	   printf("\n");
    }// end for i
@@ -66,20 +66,20 @@ int sum;
     	  for(int k=0;k<c1;k++)
 		    {
 		    	sum=0;
-		  	sum=sum+(arr[i][k]*arr[k][j]);
+		  	sum=sum+(arr[i][k]*brr[k][j]);
 			  }// end for 	
-    	    arr [i][j]=sum ;
+    	    crr [i][j]=sum ;
 		}// end for
 	}// end for
   
   // printing product //
   
-  printf("Product is :"):
+  printf("Product is :\n");
 	for (int i=0; i<r1; i++) 
      	{
           for(int j=0;j<c2;j++)
 	      { 
-           printf("%d\t",arr[i][j]);
+           printf("%d\t",crr[i][j]);
 	      }// for j
 	   printf("\n");
         }// end for i
