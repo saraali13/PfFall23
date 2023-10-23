@@ -40,12 +40,12 @@ int main ()
 		if (arr[i][j]>=100) // total number of centuries (run >=100)
 		  { totalcen++;
 		  }// end if
-		else if (arr[i][j]>=50) //total number of half centuries (run>=50)
+	    	else if (arr[i][j]>=50) //total number of half centuries (run>=50)
 		  { totalhfcen++;
 		  }
-	}// end for j
-	avgperin=Trn/in; //average number of runs
-	printf("Total runs scored=%d\n",Trn);
+     }// end for j
+     avgperin=Trn/in; //average number of runs
+    printf("Total runs scored=%d\n",Trn);
     printf("Average runs per inning=%d\n",avgperin);
     printf("Highest score in a single inning=%d\n",highestperin);
     printf("Number of centuries=%d\n",totalcen);
