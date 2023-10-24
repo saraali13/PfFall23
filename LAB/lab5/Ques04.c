@@ -11,7 +11,7 @@ int main(){
     scanf("%d",&n2);
     printf("choose the operator");
     scanf("%c",&op);
-    switch ('op')
+    switch (op)
     {
         case '+':
          printf("ans=%d",n1+n2);
