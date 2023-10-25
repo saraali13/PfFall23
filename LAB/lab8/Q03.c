@@ -16,7 +16,7 @@ int main()
 	char arr[100];
 	printf("Enter the text\n");
   // scanf("%[^\]s",arr);
-   gets(arr);
+   fgets(arr,sizeof(arr),stdin);
    printf("enter the letter you want to check\n");
    scanf(" %c", &ch);
   for (int i=0;arr[i] !='\0';i++)
@@ -26,4 +26,3 @@ int main()
   }// end for
    printf("the occurence of the entered character is :%d",count);
 }// end main
-    
