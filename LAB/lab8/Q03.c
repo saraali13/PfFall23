@@ -15,10 +15,10 @@ int main()
 //	scanf("%d",&n);
 	char arr[100];
 	printf("Enter the text\n");
-   scanf("%[^\]s",arr);
-//   gets(arr);
+  // scanf("%[^\]s",arr);
+   gets(arr);
    printf("enter the letter you want to check\n");
-   scanf(" %c",&ch);
+   scanf(" %c", &ch);
   for (int i=0;arr[i] !='\0';i++)
    {
    	if (arr[i]==ch)
