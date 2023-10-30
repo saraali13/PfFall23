@@ -13,21 +13,19 @@ int main() {
         {0, 0},
         {1, 380},
         {1, 375}  };//morning flight availability and ticket prices
-    
     int ev[5][2] = {
         {0, 0},
         {1, 310},
         {1, 280},
         {0, 0},
         {1, 400}  };//evening flight availability and ticket prices
-
-    int op, min, day,i,dn;
+    int op, min, day,dn;
     int availableDaysMr = 0;
     int availableDaysEv = 0;
     char t1[] = "morning";
     char t2[] = "evening";
 
-    printf("Enter your choice (1-4):\n ");
+    printf("Enter your choice (1-4):\n");
     printf("1. most convenient day and time slot\n");
     printf("2. the best morning flight options\n");
     printf("3. the best evening flight options\n");
@@ -36,34 +34,43 @@ int main() {
 
     switch (op) {
         case 1://most most convenient day and time
-            for (i = 0; i < 5; i++) {
-                if (mr[i][0] == 1) {
+            for (int i=0;i<5;i++) {
+            	for (int j=0;j<2;j++)
+            	{
+                if (mr[i][j] == 1) {
                     availableDaysMr++;
                 }//end if
-                if (ev[i][0] == 1) {
+                if (ev[i][j] == 1) {
                     availableDaysEv++;
                 }//end if
+            }//end j
             }//end for
             if (availableDaysMr> availableDaysEv) 
 			{
                 min = mr[0][1];
                 day = 1;
-                for ( i = 0; i < 5; i++) {
-                    if (mr[i][1] < min && mr[i][0] == 1) {
-                        min = mr[i][1];
+                for ( int i=0;i<5;i++) {
+                	for (int j=0;j<2;j++)
+                	{
+                    if (mr[i][j] < min && mr[i][j] == 1) {
+                        min = mr[i][j];
                         day = i + 1;
                     }//end if
+                   }//end j
                 }//end for
                 printf("The preferred day and time is %d , %s\n", day, t1);
             } //end if
-			else {
+	      else {
                 min = ev[0][1];
                 day = 1;
-                for ( i = 0; i < 5; i++) {
-                    if (ev[i][1] < min && ev[i][0] == 1) {
-                        min = ev[i][1];
+                for ( int i=0;i<5;i++) {
+                	for (int j=0;j<2;j++)
+                	{
+                    if (ev[i][j] < min && ev[i][j] == 1) {
+                        min = ev[i][j];
                         day = i + 1;
                     }//end if
+                  }//end j
                 }//end for
                 printf("The preferred day and time is %d , %s\n", day, t2);
             }//end else
@@ -72,14 +79,17 @@ int main() {
         case 2:// flights in the morning
             min = mr[0][1];
             day = 1;
-            for ( i = 0; i < 5; i++) {
-                if (mr[i][0] == 1) {
+            for ( int i=0;i<5;i++) {
+            	for (int j=0;j<2;j++)
+            	{
+                if (mr[i][j] == 1) {
                     printf("morning flight is available on the day %d\n", i + 1);
-                    if (mr[i][1] < min) {
-                        min = mr[i][1];
+                    if (mr[i][j] < min) {
+                        min = mr[i][j];
                         day = i + 1;
                     }//end if
                 }//end if
+             }//end j
             }//end for
             printf("the day preferred on basis of price %d\n", day);
             break;
@@ -87,14 +97,17 @@ int main() {
         case 3://flight in the evening
             min = ev[0][1];
             day = 1;
-            for ( i = 0; i < 5; i++) {
-                if (ev[i][0] == 1) {
+            for ( int i=0;i<5;i++) {
+            	for (int j=0;j<2;j++)
+            	{
+                if (ev[i][j] == 1) {
                     printf("evening flight is available on the day is %d\n", i + 1);
                     if (ev[i][1] < min) {
-                        min = ev[i][1];
+                        min = ev[i][j];
                         day = i + 1;
                     }//end if
                 }//end if
+              }//end j
             }//end for
             printf("the day preferred on basis of price is %d\n", day);
             break;
@@ -103,22 +116,24 @@ int main() {
             printf("The days are represented by 1-5(mon to fri)\n");
             printf("Enter the day number");
             scanf("%d",& dn);
-            if (mr[dn - 1][0] == 1) {
-                printf("The morning flight is available and the price is %d\n", mr[dn - 1][1]);
+            int x=dn;
+            if (mr[x][0] == 1) {
+                printf("The morning flight is available and the price is %d\n", mr[x][1]);
             }//end if
-			 else {
+            else {
                 printf("The morning flight is NOT available\n");
             }//end else
-            if (ev[dn- 1][0] == 1) {
-                printf("The evening flight is available and the price is %d\n", ev[dn - 1][1]);
+            if (ev[x][0] == 1) {
+                printf("The evening flight is available and the price is %d\n", ev[x][1]);
             }//en if
-			else {
+	    else {
                 printf("The evening flight is NOT available\n");
             }//end else
             break;
 
-        default:
+        defailt:
             printf("Invalid option input\n");
     }//end switch
+
     return 0;
 }//end main
