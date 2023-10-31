@@ -1,7 +1,7 @@
 /***
 *Name:S.Sara Ali
 *Date:31-october-23
-*Des:
+*Des:to make 3 arrays (int , char,long long int) and print their adress and value)
 ***/
 #include <stdio.h>
 int main()
