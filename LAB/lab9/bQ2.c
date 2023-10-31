@@ -11,7 +11,7 @@ int product(int a, int b)
 	{
 		return 0;
 	}//end if
-	else (b>0)
+	else if (b>0)
 	{
 		return a+product(a, b-1);
 	}//end else if
