@@ -1,13 +1,9 @@
 #include <stdio.h>
-
-// Define the structure for an employee
 struct Employee {
     char name[50];
     float salary;
     int hours_worked;
 };
-
-// Function to increase salary based on hours worked per day
 void increaseSalary(struct Employee *employee) {
     if (employee->hours_worked >= 12) {
         employee->salary += 150.0;
@@ -17,7 +13,6 @@ void increaseSalary(struct Employee *employee) {
         employee->salary += 50.0;
     }
 }
-
 int main() {
     // Assume there are 10 employees in the company
     struct Employee employees[10];
